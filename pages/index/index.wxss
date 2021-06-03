@@ -1,0 +1,35 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.boxHover{
+  background-color: palegreen;
+}
+.item{
+  width: 50;
+  height: 50;
+  background-color: peru;
+}
+.itemHover{
+  background-color: pink;
+}
+
+.out view{
+  color: aqua;
+  display: inline;
+}
+.link{
+  height: 40px;
+}
+.scrOut{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.scrBox{
+  width: 100px;
+  height: 100px;
+  background: gold;
+  margin-right: 2px;
+  flex: 0 0 100px;
+}

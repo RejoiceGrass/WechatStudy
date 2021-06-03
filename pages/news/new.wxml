@@ -1,0 +1,10 @@
+<swiper indicator-dots indicator-active-color="agba(255,255,255,0.5)" indicator-active-color="#fff">
+  <swiper-item><image src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1741767756,261912594&fm=26&gp=0.jpg"></image></swiper-item>
+  <swiper-item><image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3865120497,1233684244&fm=26&gp=0.jpg"></image></swiper-item>
+  <swiper-item><image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1483731740,4186543320&fm=26&gp=0.jpg"></image></swiper-item>
+</swiper>
+
+<view>
+  <button class="btn1" type="primary"> 登录</button>
+  <button class="btn1" type="warn"> 退出</button>
+</view> 

@@ -1,0 +1,30 @@
+<view
+class="box"
+hover-class="boxHover" 
+>
+  <view class="item" hover-class="itemHover" hover-stop-propagation >11111</view>
+</view> 
+<image src="/images/001.jpg" show-menu-by-longpress></image>
+
+<scroll-view scroll-x scroll-left="150">
+  <view class="scrOut">
+  <view class="scrBox">1111 </view>
+  <view class="scrBox">2222 </view>
+  <view class="scrBox">3333 </view>
+  <view class="scrBox">4444 </view>
+  <view class="scrBox">5555 </view>
+  <view class="scrBox">6666 </view>
+  </view>
+</scroll-view>
+<view>
+      <navigator class="link" url="/pages/logs/logs" open-type="redirect">跳转到日志</navigator>
+      <navigator class="link">跳转到日志</navigator>
+</view>
+<view class="out"> 
+    <text>司凯乐快乐的学习</text> <text>微信小程序开发</text>
+    <text> 微信 
+    <text selectable="1" decode> &nbsp; &lt;</text>
+    </text>
+  </view>
+
+
