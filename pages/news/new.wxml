@@ -1,4 +1,4 @@
-<swiper indicator-dots indicator-active-color="agba(255,255,255,0.5)" indicator-active-color="#fff">
+<swiper indicator-dots indicator-active-color="agba(255,255,255,0.5)" indicator-active-color="#fff" autoplay="1" interval="3000">
   <swiper-item><image src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1741767756,261912594&fm=26&gp=0.jpg"></image></swiper-item>
   <swiper-item><image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3865120497,1233684244&fm=26&gp=0.jpg"></image></swiper-item>
   <swiper-item><image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1483731740,4186543320&fm=26&gp=0.jpg"></image></swiper-item>
@@ -12,7 +12,16 @@
   <button type="primary" open-type="contact">联系客服</button>
 
   <form>
-    <input class="ipt" placeholder="请输入用户名"></input>
+    <input class="ipt" placeholder="请输入用户名" focus></input>
     <button form-type="submit">提交</button>
   </form>
+
 </view> 
+<view style="padding:50px; text-align:center">
+  <icon type="success" size="100"></icon>
+  <view>提交成功，感谢你的配合</view>
+</view>
+<view style="padding:50px" >
+  <progress percent="60"> </progress>
+</view>
+ 

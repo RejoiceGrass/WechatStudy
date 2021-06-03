@@ -6,10 +6,24 @@
    
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
+
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/news/new",
+      "text": "案例"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }
+  ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
