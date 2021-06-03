@@ -1,0 +1,4 @@
+<view>司凯乐学习微信{{title}}</view>
+
+<view wx:if="{{false}}">{{obj.name}}</view>
+<vie>{{listArr}}</vie>
