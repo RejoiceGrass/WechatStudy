@@ -1,4 +1,8 @@
-button{
+.button{
   margin: 10rpx;
   
+}
+.ipt{
+  border: 1px solid #ddd;
+  height: 70rpx;
 }

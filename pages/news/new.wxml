@@ -4,7 +4,15 @@
   <swiper-item><image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1483731740,4186543320&fm=26&gp=0.jpg"></image></swiper-item>
 </swiper>
 
-<view>
+<view class="out">
   <button class="btn1" type="primary"> 登录</button>
   <button class="btn1" type="warn"> 退出</button>
+  <button class="btn1" type="primary" size="mini">支付</button>
+  <button class="btn1" type="primary" loading="">加载中..</button>
+  <button type="primary" open-type="contact">联系客服</button>
+
+  <form>
+    <input class="ipt" placeholder="请输入用户名"></input>
+    <button form-type="submit">提交</button>
+  </form>
 </view> 
