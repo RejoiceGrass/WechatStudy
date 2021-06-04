@@ -1,24 +1,40 @@
-// pages/demo2/demo2.js
+// pages/demo4/demo4.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    listArr:["寿司","意大利面","汉堡","饺子"],
-
-    listObj:[
-      {title:"宋博文的摸鱼生活",time:"2021-6-4"},
-      {title:"赵家俊的打工生活",time:"2021-3-4"},
-      {title:"李伯雄的糜烂生活",time:"2021-12-4"}
-    ]
+    name:"宋博文",
+    class:"",
+    hei:"100",
+    wid:"300",
+    bgColor:"red"
   },
-
+  btnTap:function () {
+    this.setData({
+      name:"司凯乐",
+      class:"小程序学习",
+      hei:"200",
+      wid:"600",
+      bgColor:"pink"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    //console.log( wx.getSystemInfoSync().model) 
+    //  wx.showLoading({
+    //    title: '数据加载中',
+    //  })
+    //  setTimeout(res=>{
+    //    wx.hideLoading()
+    //  },1500)
+    //提交的
+    // wx.showToast({
+    //   title: "提交成功",
+    // })
   },
 
   /**

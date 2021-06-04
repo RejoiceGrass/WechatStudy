@@ -1,0 +1,2 @@
+<view style="height:{{hei}}rpx;width:{{wid}}rpx;background:{{bgColor}}; transition:0.5s;" >{{name}}--{{class}}</view>
+<button type="primary" bindtap="btnTap">点击设置内容</button>

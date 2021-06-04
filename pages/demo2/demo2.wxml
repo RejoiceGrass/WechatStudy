@@ -1,1 +1,9 @@
-<view wx:for="{{10}}">司凯乐学微信</view>
+<view wx:for="{{listArr}}" wx:key="*this">{{index}}、{{item}}</view>
+
+<text decode>&nbsp;</text>
+
+<view wx:for="{{listArr}}" wx:for-index="i" wx:for-item="content" wx:key="i">{{i}}.{{content}} </view>
+
+<view wx:for="{{listObj}}" wx:key="index">
+  <text>{{item.title}}</text> - <text>{{item.time}}</text>
+</view>
