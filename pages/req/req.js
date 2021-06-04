@@ -1,27 +1,42 @@
-// pages/demo2/demo2.js
+// pages/req/req.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    listArr:["寿司","意大利面","汉堡","饺子"],
-
-    listObj:[
-      {title:"宋博文的摸鱼生活",time:"2021-6-4"},
-      {title:"赵家俊的打工生活",time:"2021-3-4"},
-      {title:"李伯雄的糜烂生活",time:"2021-12-4"}
-    ]
+    dataList:[
+      {title:"这是标题1"},
+      {title:"这是标题2"},
+      {title:"这是标题3"}
+    ],
+    resData:[],
+    num:1
   },
-  navBack:function () {
-    wx.navigateBack()
+  pageNextBtn:function () {
+    this.data.num++
+    this.getList(this.data.num);
+  },
+  getList:function (p=1) {
+    wx.request({
+      url: 'http://edu.newsight.cn/wxList.php',
+      data:{
+        num:5,
+        page:p
+      },
+      success:res=>{
+        this.setData({
+          resData:res.data
+        })
+      }
+  })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-  },
+    this.getList();
+},
 
   /**
    * 生命周期函数--监听页面初次渲染完成

@@ -7,3 +7,4 @@
 <view wx:for="{{listObj}}" wx:key="index">
   <text>{{item.title}}</text> - <text>{{item.time}}</text>
 </view>
+<view bindtap="navBack">返回上一页</view>

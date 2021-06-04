@@ -16,9 +16,10 @@ hover-class="boxHover"
   <view class="scrBox">6666 </view>
   </view>
 </scroll-view>
+<button type="primary" bindtap="clickBtn">跳转到日志</button>
 <view>
-      <navigator class="link" url="/pages/logs/logs" open-type="redirect">跳转到日志</navigator>
-      <navigator class="link">跳转到日志</navigator>
+      <navigator class="link" url="../demo3/demo3" 
+       open-type="switchTab">跳转到案例</navigator>
 </view>
 <view class="out"> 
     <text>司凯乐快乐的学习</text> <text>微信小程序开发</text>
